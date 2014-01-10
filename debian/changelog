@@ -1,3 +1,9 @@
+libqbit-graphviz-perl (0.002) raring; urgency=low
+
+  * Fixed dot path
+
+ -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Fri, 10 Jan 2014 18:30:06 +0400
+
 libqbit-graphviz-perl (0.001) raring; urgency=low
 
   * Initial commit
