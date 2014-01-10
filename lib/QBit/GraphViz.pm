@@ -9,6 +9,8 @@ sub _as_generic {
 
     utf8::encode($dot);
 
+    local $ENV{'PATH'} = 'usr/bin/' unless defined($ENV{'PATH'});
+
     return $self->SUPER::_as_generic($type, $dot, $output);
 }
 
